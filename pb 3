@@ -1,0 +1,13 @@
+total=0
+zile_peste+2000=0
+for zi in range(1,8):
+    incasare=float(input(f"Incasare din ziua{zi}: "))
+    total=total+incasare
+    if incasare>2000:
+        zile_peste_2000=zile_peste_2000+1
+media=total/7
+print(f"incasare totala:{total:.2f}euro")
+print(f"media zilnica:{media:.2f}euro")
+print(f"zile cu incsari peste 2000 de euro")
+
+
